@@ -1,0 +1,15 @@
+body {
+  background-color:  #a070a1;
+}
+.flex-container {
+    margin-top: 20px;
+    background-color: #fdf3f3;
+}
+h1 {
+    color: #724060;
+    font-family: 'Roboto Slab', serif;
+}
+h2 {
+    color: #a070a1;
+   font-family: 'Roboto', sans-serif;
+}
