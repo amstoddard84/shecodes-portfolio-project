@@ -1,15 +1,17 @@
 body {
-  background-color:  #a070a1;
+  background-color:  #fdf3f3;
 }
 .flex-container {
-    margin-top: 20px;
-    background-color: #fdf3f3;
+    margin-top: 100px;
+    background-color: #a070a1;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 h1 {
-    color: #724060;
+    color: #fdf3f3;
     font-family: 'Roboto Slab', serif;
 }
 h2 {
-    color: #a070a1;
+    color: #fdf3f3;
    font-family: 'Roboto', sans-serif;
 }
