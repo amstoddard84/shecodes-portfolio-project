@@ -19,6 +19,7 @@ body {
 h1 {
     color: #fdf3f3;
     font-family: var(--heading-font-family);
+    font-size: 60px;
     text-align: center;
 }
 h2 {
@@ -26,7 +27,22 @@ h2 {
    font-family: var(--default-font-family);
    text-align: center;
 }
-
+.container {
+  margin: 0 auto;
+  justify-content: center;
+}
+.mb-3 {
+  color: var(--fourth-color);
+  font-family: var(--heading-font-family);
+  text-align: center;
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.homepage-image {
+    max-width: 375px;
+    height:auto;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -93,6 +109,10 @@ a:hover {
   }
 
   p {
+    text-align: center;
+  }
+  .mb-3 {
+    font-size: 48px;
     text-align: center;
   }
 
