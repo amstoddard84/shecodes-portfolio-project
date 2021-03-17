@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #3d0240;
-  --secondary-color: #ffffff;
-  --third-color: #f8e7e7; 
-  --fourth-color: #a070a1; 
+  --primary-color: #a64ac9;
+  --secondary-color: #000000;
+  --third-color: #fccd04;
+  --fourth-color: #17e9e0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: 'DM Serif Text', serif;
   --default-font-family: 'Roboto', sans-serif;
@@ -13,7 +13,6 @@ body {
 .flex-container {
     margin-top: 60px;
     margin-bottom: 20px;
-    background-color: #a070a1;
     padding-top: 10px;
 }
 h1 {
@@ -23,12 +22,14 @@ h1 {
     text-align: center;
 }
 h2 {
-    color: var(--secondary-color);
+    color: var(--third-color);
    font-family: var(--default-font-family);
    text-align: center;
 }
+p{
+  color: #ffffff;
+}
 footer {
-background-color: #a070a1;
   margin-top: 100px;
   padding: 10px;
 }
@@ -54,7 +55,7 @@ background-color: #a070a1;
   justify-content: center;
 }
 a:hover {
-  color: var(--fourth-color);
+  color: #ffffff;
 }
 .logo {
   display: block;
@@ -72,24 +73,18 @@ a:hover {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  background: var(--primary-color);
+  font-weight: bold;
+  background: var(--fourth-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
+
   .project-link {
     padding-left: 30px;
     padding-right: 30px;
   }
   .contact {
-    color: var(--secondary-color);
+    color: var(--third-color);
     font-family: var(--default-font-family);
   }
   .email-link {
@@ -105,7 +100,7 @@ a:hover {
 }
 .about-container {
   padding: 160px 20px;
-  background-color: #a070a1;
+  background-color: var(--third-color);
 }
 
 .about-container h1 {
