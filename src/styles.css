@@ -130,6 +130,10 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 20px;
 }
+ .paragraph-link {
+  color: var(--third-color);
+  text-decoration: none;
+}
 
 @media (max-width: 576px) {
   h1 {
