@@ -134,6 +134,10 @@ a:hover {
   color: var(--third-color);
   text-decoration: none;
 }
+.work-image {
+    max-width: 375px;
+    height:auto;
+}
 
 @media (max-width: 576px) {
   h1 {
