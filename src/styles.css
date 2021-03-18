@@ -124,6 +124,12 @@ a:hover {
   color: var(--fifth-color);
   font-family: var(--default-font-family);
 }
+.work-flex-container {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 @media (max-width: 576px) {
   h1 {
