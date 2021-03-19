@@ -47,7 +47,7 @@ footer {
   padding-bottom: 20px;
 }
 .homepage-image {
-    max-width: 375px;
+    max-width: 500px;
     height:auto;
 }
 a:hover {
@@ -95,18 +95,18 @@ a:hover {
 }
 .about-container {
   padding: 160px 20px;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .about-container h1 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 64px;
   line-height: 80px;
 }
 
 .about-container h2 {
   font-size: 24px;
-  color: var(--fifth-color);
+  color: var(--fourth-color);
   font-family: var(--default-font-family);
 }
 
@@ -132,7 +132,11 @@ a:hover {
   color: var(--fourth-color);
 }
 .work-image {
-    max-width: 375px;
+    max-width: 500px;
+    height:auto;
+}
+.project-image {
+    max-width: 500px;
     height:auto;
 }
 
