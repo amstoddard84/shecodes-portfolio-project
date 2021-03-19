@@ -13,7 +13,7 @@ body {
 }
 .flex-container {
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     padding-top: 10px;
 }
 h1 {
@@ -50,24 +50,18 @@ footer {
     max-width: 375px;
     height:auto;
 }
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
 a:hover {
   color: #ffffff;
+}
+.nav-logo {
+  display: block;
+  max-width: 50px;
+  margin-right:5px;
 }
 .logo {
   display: block;
   justify-content: center;
   opacity: 80%;
-}
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
 }
 .primary-link,
 .project-link {
