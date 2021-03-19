@@ -131,8 +131,11 @@ a:hover {
     padding-bottom: 20px;
 }
  .paragraph-link {
-  color: var(--third-color);
+  color: var(--fourth-color);
   text-decoration: none;
+}
+.paragraph-link:hover {
+  color: var(--third-color);
 }
 .work-image {
     max-width: 375px;
