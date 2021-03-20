@@ -35,7 +35,7 @@ footer {
   padding: 10px;
 }
 .container {
-  margin: 0 auto;
+  margin: 10px 50px 10px 50px;
   justify-content: center;
 }
 .mb-3 {
@@ -190,6 +190,10 @@ a:hover {
   }
 }
 @media (max-width: 991px) {
+  .container {
+  margin: 0 auto;
+  justify-content: center;
+}
   .about-image {
     display: block;
     margin-left: 20px;
