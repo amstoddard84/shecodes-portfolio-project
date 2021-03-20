@@ -86,7 +86,7 @@ a:hover {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -148,6 +148,17 @@ a:hover {
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+  .social-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
 }
 @media (max-width: 576px) {
   h1 {
