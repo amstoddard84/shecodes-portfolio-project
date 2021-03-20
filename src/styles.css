@@ -139,7 +139,16 @@ a:hover {
     max-width: 500px;
     height:auto;
 }
-
+.books-image {
+    max-width: 500px;
+    height:auto;
+}
+.fun-flex-container {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
