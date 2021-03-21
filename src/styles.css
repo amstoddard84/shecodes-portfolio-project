@@ -49,6 +49,9 @@ footer {
 .fa-envelope-square {
   color: var(--fourth-color);
 }
+.fa-paper-plane {
+  color: var(--primary-color);
+}
 .container {
   margin: 10px 50px 10px 50px;
   justify-content: center;
