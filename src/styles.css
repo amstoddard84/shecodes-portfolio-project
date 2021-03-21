@@ -83,8 +83,6 @@ a:hover {
     font-family: var(--default-font-family);
   }
   .email-link {
-  display: flex;
-  justify-content: center;
   color: var(--primary-color);
   font-size: 18px;
   text-decoration: none;
@@ -150,8 +148,6 @@ a:hover {
     padding-bottom: 20px;
 }
   .social-link {
-  display: flex;
-  justify-content: center;
   color: var(--primary-color);
   font-size: 18px;
   text-decoration: none;
