@@ -42,6 +42,13 @@ footer {
 .fa-github {
   color: var(--fourth-color); 
 }
+.fa-linkedin-in
+{
+  color: var(--fourth-color);
+}
+.fa-envelope-square {
+  color: var(--fourth-color);
+}
 .container {
   margin: 10px 50px 10px 50px;
   justify-content: center;
