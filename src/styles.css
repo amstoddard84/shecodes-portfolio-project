@@ -32,7 +32,13 @@ p{
 }
 footer {
   margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
   padding: 10px;
+}
+.footer-text {
+  display: block;
+  text-align: center;
 }
 .container {
   margin: 10px 50px 10px 50px;
